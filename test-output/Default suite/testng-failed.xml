@@ -5,9 +5,9 @@
     <classes>
       <class name="testCasePack.LoginTest">
         <methods>
-          <include name="loginTestVerifyOTPWithExpiredOTP"/>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
+          <include name="loginTestPositive"/>
         </methods>
       </class> <!-- testCasePack.LoginTest -->
     </classes>
